@@ -3,7 +3,7 @@
 n=$1
 
 
-while [ "$n" -le 10 ]
+until [ "$n" -ge 10 ]
 do
 	echo "$n"
 	n=$(( n+1 ))
